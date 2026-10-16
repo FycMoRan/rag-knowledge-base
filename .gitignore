@@ -1,0 +1,31 @@
+# 敏感信息
+.env
+
+# 自动生成的缓存和历史
+chat_history.json
+chunks_cache.pkl
+
+# 向量数据库（可由 build_index.py 重建）
+chroma_db/
+
+# 本地模型（可用 download_model.py 重新下载）
+models/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境
+.venv/
+rag_env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
